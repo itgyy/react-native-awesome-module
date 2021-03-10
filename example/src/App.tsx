@@ -8,7 +8,7 @@ export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
-    AwesomeModule.multiply(3, 7).then(setResult);
+    AwesomeModule.multiply(4, 8).then(setResult);
   }, []);
 
   return (
